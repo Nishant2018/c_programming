@@ -1,0 +1,24 @@
+// c program to print Rhombus star pattern
+#include<stdio.h>
+void main()
+{
+   int i,j,rows;
+
+   printf("Enter rows:");
+   scanf("%d",&rows);
+
+   for(i=1;i<=rows;i++)
+   {
+       for(j=1;j<=rows-i;j++)
+       {
+           printf(" ");
+
+       }
+       for(j=1;j<=rows;j++)
+       {
+           printf("*");
+
+       }
+       printf("\n");
+   }
+}
